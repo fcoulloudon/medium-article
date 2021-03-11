@@ -1,0 +1,156 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: #ffffff;
+  color: #2b2b2b;
+  font-size: 12pt;
+  line-height: 20pt;
+  margin: 0;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 50px 0;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  font-size: 14pt;
+  display: block;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 1.6em;
+}
+
+.banner p {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.banner h1 {
+  color: white;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.fab {
+  font-size: 60px;
+}
+
+.btm-margin{
+  padding: 0px 0px 30px 0px;
+}
+
+.btn-grey {
+  background: rgb(63, 63, 63);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 20px 40px;
+  border-radius: 4px;
+  margin: 10px 0px;
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(63, 63, 63);
+}
+
+.btn-grey:hover {
+  background: rgb(255, 255, 255);
+  font-weight: bold;
+  color:rgb(63, 63, 63);
+  padding: 20px 40px;
+  border-radius: 4px;
+  margin: 10px 0px;
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(63, 63, 63);
+}
+
+.card-white {
+  background: white;
+  font-size: 14pt;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px 0px;
+  /* border: 1px solid lightgrey;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 50%); */
+}
+
+.container {   /* This sets the width */
+  width: 700px;
+  margin: 50px auto;
+  display: block;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2, h3 {
+  color: #696969;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+}
+
+h1 {
+  font-size: 40pt;
+  line-height: 40pt;
+  font-weight: 700;
+}
+
+h2 { 
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+a {
+  color:rgb(0, 49, 49);
+  text-decoration: none;
+}
+
+a:hover {  
+  color:rgb(0, 104, 104);
+}
+
+#social {
+  padding-left: 0px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 0 auto;
+  /* padding-inline-start: 0px; */
+}
+
+.text-center {
+  text-align: center;
+}
